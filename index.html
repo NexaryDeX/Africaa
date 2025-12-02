@@ -267,8 +267,8 @@
                     const errorDiv = document.createElement('div');
                     errorDiv.className = 'error';
                     errorDiv.innerHTML = `❌ Error de Carga<br><strong>${filename}</strong>`;
-                    this.parentElement.innerHTML = '';
-                    this.parentElement.appendChild(errorDiv);
+                    item.innerHTML = '';
+                    item.appendChild(errorDiv);
                 };
                 
                 const name = document.createElement('div');
@@ -362,4 +362,3 @@
     </script>
 </body>
 </html>
-
